@@ -60,3 +60,8 @@ Emitted when tokens are transferred from one address to another.
 ### `Approval(address indexed tokenOwner, address indexed spender, uint tokens)`
 
 Emitted when the allowance of a spender is approved by the token owner.
+
+## License
+
+This smart contract is licensed under the MIT License.
+
