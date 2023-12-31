@@ -60,25 +60,3 @@ Emitted when tokens are transferred from one address to another.
 ### `Approval(address indexed tokenOwner, address indexed spender, uint tokens)`
 
 Emitted when the allowance of a spender is approved by the token owner.
-
-## Usage
-
-1. Deploy the contract.
-2. Interact with the contract using the provided functions.
-
-```solidity
-// Example usage in Solidity
-T0k3n token = new T0k3n();
-address receiver = 0x123...; // Replace with the desired address
-
-// Transfer tokens
-token.transfer(receiver, 100);
-
-// Approve delegate to spend tokens
-token.approve(delegateAddress, 50);
-
-// Check allowance
-uint allowance = token.allowance(ownerAddress, delegateAddress);
-
-// TransferFrom using the approved allowance
-token.transferFrom(ownerAddress, buyerAddress, 30);
