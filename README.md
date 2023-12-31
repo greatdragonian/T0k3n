@@ -37,7 +37,7 @@ Public view that returns the balance of T0k3n held by the specified address.
 
 ### `transfer(address receiver, uint numTokens)`
 
-Function that transfers a specified number of T0k3n from the transaction sender's account to the specified receiver.
+Public function that transfers a specified number of T0k3n from the transaction sender's account to the specified receiver.
 
 ### `approve(address delegate, uint numTokens)`
 
@@ -45,11 +45,11 @@ Public function that allows the specified delegate to spend a specified number o
 
 ### `allowance(address owner, address delegate)`
 
-Returns the remaining allowance of T0k3n that the delegate can spend on behalf of the owner.
+Public view that returns the remaining allowance of T0k3n that the delegate can spend on behalf of the owner.
 
 ### `transferFrom(address owner, address buyer, uint numTokens)`
 
-Transfers a specified number of T0k3n from the owner's account to the buyer's account, given that the sender has been approved to spend on behalf of the owner.
+Public function that transfers a specified number of T0k3n from the owner's account to the buyer's account, given that the buyer has been approved to spend on behalf of the owner.
 
 ## Events
 
