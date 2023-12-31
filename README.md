@@ -61,6 +61,10 @@ Emitted when tokens are transferred from one address to another.
 
 Emitted when the allowance of a spender is approved by the token owner.
 
+## Aditional Information
+
+This contract uses the `SafeMath` library to prevent unexpected results when computing new balances.
+
 ## License
 
 This smart contract is licensed under the MIT License.
