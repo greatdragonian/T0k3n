@@ -3,14 +3,14 @@
 ## Overview
 
 T0k3n is a basic ERC-20 token written in Solidity. As it is expected, it includes functionalities for transferring tokens, checking balances, approving token transfers, and checking allowances. Below is the documentation for deploying the
-contract in the Redbelly DevNet and interacting with it.
+contract in the [Redbelly](https://www.redbelly.network) DevNet and interacting with it.
 
 ## Deployment
 
 The contract is simple enough to be deployed using the [Remix Online IDE](https://remix.ethereum.org), using the following steps:
 
-1. Get access to the 
-1. Ensure that you have the required version of Solidity (>=0.8.0 <0.9.0) installed.
+1. Get access to the Redbelly DevNet using the instructions provided in the [Vine Portal](https://access.devnet.redbelly.network)
+2. Use the Redbelly Devnet Faucet to send some coins to your registered wallet. The faucet can be found in the [Redbelly Discord](https://discord.gg/redbelly)
 2. Deploy the `T0k3n` contract to the Redbelly Network.
 
 ## Contract Details
