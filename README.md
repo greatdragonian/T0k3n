@@ -11,7 +11,12 @@ The contract is simple enough to be deployed using the [Remix Online IDE](https:
 
 1. Get access to the Redbelly DevNet using the instructions provided in the [Vine Portal](https://access.devnet.redbelly.network)
 2. Use the Redbelly Devnet Faucet to send some coins to your registered wallet. The faucet can be found in the [Redbelly Discord](https://discord.gg/redbelly)
-2. Deploy the `T0k3n` contract to the Redbelly Network.
+3. Go to the [Remix Online IDE](https://remix.ethereum.org).
+4. Copy the `t0k3n.sol` file in the `contracts` directory.
+5. Before compiling the contract, make sure you use the Solidity compiler version 0.8.23. With the __Paris EVM version__ (using the default EVM version will not work for Redbelly).
+6. Compile the contract
+7. Connect your registered Metamask wallet (steps 1 and 2) to Remix.
+8. Deploy the contract!
 
 ## Contract Details
 
@@ -24,19 +29,19 @@ The contract is simple enough to be deployed using the [Remix Online IDE](https:
 
 ### `totalSupply()`
 
-Returns the total supply of T0k3n.
+Public view that returns the total supply of T0k3n.
 
 ### `balanceOf(address tokenOwner)`
 
-Returns the balance of T0k3n held by the specified address.
+Public view that returns the balance of T0k3n held by the specified address.
 
 ### `transfer(address receiver, uint numTokens)`
 
-Transfers a specified number of T0k3n from the sender's account to the specified receiver.
+Function that transfers a specified number of T0k3n from the transaction sender's account to the specified receiver.
 
 ### `approve(address delegate, uint numTokens)`
 
-Allows the specified delegate to spend a specified number of T0k3n on behalf of the sender.
+Public function that allows the specified delegate to spend a specified number of T0k3n on behalf of the transaction sender.
 
 ### `allowance(address owner, address delegate)`
 
